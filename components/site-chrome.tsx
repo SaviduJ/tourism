@@ -102,6 +102,8 @@ export function Footer() {
         </div>
 
         <div className="bottom">
+          <Link href="/admin" prefetch={false}>Staff sign in</Link>
+
           <span>
             © {new Date().getFullYear()} CEYLON. Made for meaningful journeys.
           </span>
@@ -109,5 +111,6 @@ export function Footer() {
         </div>
       </div>
     </footer>
+
   );
 }
